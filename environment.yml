@@ -1,0 +1,21 @@
+name: ion_dash_intake
+channels:
+  - conda-forge
+  - pyviz
+  - defaults
+dependencies:
+  - python=3.9.19
+  - pip=23.3.1
+  - numpy=1.24.3
+  - pandas=2.0.3
+  - panel=1.4.4
+  - bokeh=3.4.1
+  - hvplot=0.10.0
+  - holoviews=1.17.1
+  - matplotlib=3.8.0
+  - jupyter
+  - pip:
+    - keras==2.10.0
+    - tensorflow==2.7.4
+    - joblib==1.4.2
+    - scikit-learn==1.0.2
